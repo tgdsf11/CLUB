@@ -1,0 +1,87 @@
+/*Agregamos la fuente que vamos a utilizar en la pagina*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Exo:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(/img/foto-montaña.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    height: 500px;
+}
+
+#inicio .contenido-header{
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#inicio .contenido-header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#inicio .contenido-header .logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#inicio .contenido-header h1{
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 0 5px;
+}
+
+#inicio .contenido-header .navbar-logo img {
+    max-width: 300px;
+    min-height: 200px;
+    padding-left: 10px;
+}
+#inicio .contenido-header .menu-iconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#inicio .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#inicio .contenido-header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 7px;
+    font-weight:400 ;
+    transition: .1s;
+}
+#inicio .contenido-header nav ul a:hover{
+    color: #ff5080;
+}
+#inicio .contenido-header .redes{
+    padding-right: 5px;
+}
+#inicio .contenido-header .redes a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 2px;
+    font-weight: 400;
+    transition: .1s;
+}
+#inicio .contenido-header .redes a:hover{
+    color: #ff5080;
+}
+
+
